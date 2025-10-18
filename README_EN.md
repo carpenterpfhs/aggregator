@@ -262,6 +262,19 @@ cd aggregator
 pip install -r requirements.txt
 ```
 
+### Dashboard Panel (New)
+Use the lightweight web UI to orchestrate `collect.py` without touching the terminal:
+
+```bash
+python -m subscribe.dashboard
+# Defaults to 0.0.0.0:8000, override with DASHBOARD_HOST / DASHBOARD_PORT
+```
+
+- Start a collection run from the browser with one click
+- Configure automatic execution intervals
+- Every run generates a random UUID subscription endpoint ready for Clash import
+- Docker friendly: `docker run -p 8000:8000 your-image`
+
 3. **Download required binaries**
 ```bash
 # The system will automatically download clash and subconverter binaries
