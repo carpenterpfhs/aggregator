@@ -274,6 +274,7 @@ python -m subscribe.dashboard
 - Configure automatic execution intervals
 - Every run generates a random UUID subscription endpoint (for example `/subscription/<UUID>`) ready for Clash import
 - Docker friendly: `docker run -p 8000:8000 your-image`
+- Image pushes to GitHub Container Registry: `docker pull ghcr.io/<github-username>/<repository>:latest`
 
 3. **Download required binaries**
 ```bash
