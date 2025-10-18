@@ -71,7 +71,7 @@ python -m subscribe.dashboard
 ```
 
 - 首页提供立即执行按钮和定时任务配置
-- 每次执行完成后会生成随机 UUID 对应的 Clash 订阅地址
+- 每次执行完成后会生成随机 UUID 对应的 Clash 订阅地址（例如 `/subscription/<UUID>`）
 - 可配合 Docker 使用：`docker run -p 8000:8000 your-image`
 
 ### 🎁 共享订阅

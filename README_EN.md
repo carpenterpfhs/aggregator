@@ -272,7 +272,7 @@ python -m subscribe.dashboard
 
 - Start a collection run from the browser with one click
 - Configure automatic execution intervals
-- Every run generates a random UUID subscription endpoint ready for Clash import
+- Every run generates a random UUID subscription endpoint (for example `/subscription/<UUID>`) ready for Clash import
 - Docker friendly: `docker run -p 8000:8000 your-image`
 
 3. **Download required binaries**
